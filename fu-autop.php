@@ -46,7 +46,7 @@ class FU_Autop
         return self::$ins;
     }
 
-    public function __construct()
+    private function __construct()
     {
         add_action('add_meta_boxes', array($this, 'box'), 10, 2);
         add_action('save_post', array($this, 'save'), 10, 2);
