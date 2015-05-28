@@ -1,0 +1,16 @@
+{
+    "name": "pmg/fu-autop",
+    "description": "Removes `wpautop` from individual pages",
+    "keywords": ["wordpress"],
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Christopher Davis",
+            "email": "chris@pmg.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    }
+}
